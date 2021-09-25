@@ -1,116 +1,184 @@
 *{
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif ;
 }
 body{
-    background-color:rgb(65, 62, 62) ;
-    margin: 40px;
+    background-color: rgb(80, 69, 69);
 }
 .main{
-    width: 85%;
-    text-align: center;
+    width: 90%;
     background-color: white;
-    margin: 40px;
-}
-.link{
+    border: 5px;
+    border: yellowgreen;
+    margin: 20px;
     text-align: center;
-    margin: 10px 20px;
-    padding: 20px 20px 5px 20px;
 }
-.link #home{
-    background-color: yellowgreen;
-    color: white;
+.main1{
+    width: 90%;
+    background-color: white;
+    border: 5px;
+    border: yellowgreen;
+    margin: auto;
+}
+nav{
+    text-align: center;
+    padding: 15px;
 }
 a{
     text-decoration: none;
-    padding: 20px;
-    color: black;
+    padding: 15px;
+    color: rgb(80, 69, 69);
+}
+nav #home{
+    color: white;
+    background-color: yellowgreen;
 }
 .clearfix{
     clear: both;
 }
 .section1 #head{
+    font-size:xxx-large;
     margin: 0px;
-    font-size: 40px;
-    color: rgb(65, 62, 62);
+    color: rgb(80, 69, 69);
+}
+img{
+    width: 100%;
 }
 .img1{
     height: 300px;
-    width: 90%;
 }
 .section2{
-    width: 90%;
-    height: 300px;
-    margin-left: 60px;
+    height: 310px;
 }
-.section2 #column1, #column2, #column3{
-    float: left;
-    width: 30%;
-    margin: 10px 20px 10px 10px;
-    background-color: yellowgreen;
-    color: white;
-}
-.section2 h4{
-    margin: 14px 0px;
-}
-.section2 img{
-    height: 150px;
-    width: 100%;
-}
-.section2 p{
-    color: rgb(65, 62, 62);
-    margin: 0px 0px 20px 0px;
-}
-.section3{
-    width: 90%;
-    align-items: center;
-    height: 320px;
-    margin-left: 50px;
-}
-.section3 .column1, .column2, .column3{
+.section2 .column1{
     width: 33.333333%;
     float: left;
-    text-align: left;
+    height: 300px;
 }
-.section3  h3{
-    color: rgb(73, 90, 39);
-} 
-.section3 button{
-    border: 0px;
+.section2 .column1 div{
+    background-color: yellowgreen;
+}
+.section2 .column1 #column1{
+    margin-right: 10px;
+}
+.section2 .column1 #column2{
+    margin:0px 5px 0px 5px;
+}
+.section2 .column1 #column3{
+    margin-left: 10px;
+}
+.section2 .column1 h2{
+    height: auto;
+    margin: 0px;
+    padding: 10px 0 10px 0;
     color: white;
-    background-color: rgb(65, 62, 62);
-    padding: 8px;
+}
+.section2 .column1  img{
+    height: 130px;
+}
+.section2 .column1  p{
+    height: 120px;
+    background-color: rgb(80, 69, 69);
+    margin: -4px 0 0 0;
+    padding: 15px;
+    color: white;
+    border-bottom-right-radius: 70px;
+}
+.section2 .column1 button{
+    color: white;
+    background-color: yellowgreen;
+    border: none;
+    text-align: left;
+    position: absolute;
+    padding: 0px;
+    margin-left: 12%;
+    margin-top: -19px;
+}
+.section3{
+    height: 320px;
+}
+.section3 .column1{
+    color: rgb(80, 69, 69);
+    width: 33.3333333%;
+    text-align: left;
+    float: left;
+}
+.section3 .column1 #column1 ul{
+    list-style: none;
+    padding: 0px;
+}
+.section3 .column1 #column1 li::before{
+    content: '>  ';
+}
+.section3 .column1 h3{
+    color: yellowgreen;
+}
+.section3 .column1 #column2 p{
+    line-height: 25px;
+}
+.section3 .column1 button{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(80, 69, 69);
 }
 .section4{
     height: 150px;
-    width: 90%;
-    margin: 0px 50px;
 }
 .section4 .column1{
-    height: 100px;
     width: 50%;
     float: left;
 }
 .section4 .column1 #box1{
-    padding: 2.5px;
     background-color: yellowgreen;
     float: left;
-    width: 20%;
-    font-size: 30px;
+    width: 15%;
     color: white;
+    font-weight: bold;
+    font-size: 30px;
 }
 .section4 .column1 #box2{
-    padding: 10px;
-    background-color: rgb(65, 62, 62);
-    width: 75%;
+    background-color: rgb(80, 69, 69);
     float: left;
+    width: 80%;
+    padding: 20px;
     text-align: left;
+}
+.section4 .column1 h3, p{
+    margin: 0px;
 }
 .section4 .column1 h3{
     color: yellowgreen;
 }
-.section5{
-    padding: 20px;
+.section4 .column1 p{
+    color: white;
+    margin-top: 5px;
 }
 
-
+@media only screen and (max-width: 576px){
+    nav{
+        padding: 0px;
+        line-height: 25px;
+    }
+    a{
+        padding: 0px 5px 0px 0px;
+    }
+    nav #home{
+        padding: 5px;
+    }
+    .section2 .column1, .section3 .column1, .section4 .column1{
+        width: 100%;
+    }
+    .section2 .column1 #column1,.section2 .column1 #column2,.section2 .column1 #column3{
+        margin: 0px;
+    }
+    .section2 .column1 button{
+        margin-left: 35%;
+    }
+    .section4 .column1 {
+        margin: 5px;
+    }
+    .section4 .column1 #box2{
+        padding: 5px;
+    }
+}
