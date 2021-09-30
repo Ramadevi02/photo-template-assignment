@@ -332,7 +332,7 @@ footer{
         width: 100%;
     }
     .block3 .column1 div div{
-        height: 250px;
+        height: auto;
     }
     .block3 .column1 #column1{
         width: 50%;
