@@ -166,9 +166,7 @@ nav{
 .block4 .column .row2 #column2 #column2-1{
     background-color: rgb(48, 42, 42, 0.5);
     width: 50%;
-    backdrop-filter:  blur(20px);
     background-attachment: fixed;
-    box-shadow: 0 0 5px 0;
     text-align: left;
     color: white;
     padding: 25px;
