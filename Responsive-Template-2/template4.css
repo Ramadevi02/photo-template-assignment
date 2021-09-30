@@ -163,7 +163,7 @@ nav{
     background-position: center;
 }
 .block4 .column .row2 #column2 #column2-1{
-    background-color: rgb(48, 42, 42, 0.2);
+    background-color: rgb(48, 42, 42, 0.3);
     width: 50%;
     background-attachment: fixed;
     text-align: left;
@@ -182,7 +182,7 @@ nav{
 }
 .block5 .column{
     background-color: rgb(26, 134, 177, 0.2);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(2px);
     padding: 40px;
 }
 .block5 .column h3{
