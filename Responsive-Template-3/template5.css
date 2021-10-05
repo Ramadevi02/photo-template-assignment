@@ -1,0 +1,420 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.section1{
+    width: 20%;
+    background-color: grey;
+    height: 100vh;
+    position: fixed;
+}
+img{
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}
+.section1 a{
+    display: block;
+    background-color: rgb(54, 52, 52);
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.section1 a:nth-child(1){
+    border-left: 5px solid rgb(41, 141, 207);
+    border-bottom: 1px solid grey;
+}
+.section1 a:nth-child(1):hover{
+    color: rgb(41, 141, 207);
+}
+.section1 a:nth-child(2){
+    border-left: 5px solid orange;
+    border-bottom: 1px solid grey;
+}
+.section1 a:nth-child(2):hover{
+    color: orange;
+}
+.section1 a:nth-child(3){
+    border-left: 5px solid rgb(122, 13, 155);
+    border-bottom: 1px solid grey;
+}
+.section1 a:nth-child(3):hover{
+    color: rgb(122, 13, 155);
+}
+.section1 a:nth-child(4){
+    border-left: 5px solid rgb(10, 204, 146);
+    border-bottom: 1px solid  grey;
+}
+.section1 a:nth-child(4):hover{
+    color: rgb(10, 204, 146);
+}
+.section1 a:nth-child(5){
+    border-left: 5px solid rgb(255, 0, 127);
+    border-bottom: 1px solid grey;
+}
+.section1 a:nth-child(5):hover{
+    color: rgb(255, 0, 127);
+}
+/* Section 2 */
+.section2{
+    width: 80%;
+    margin-left: 20%;
+    text-align: center;
+}
+.section2 .header{
+    background-image: url(images/images\ \(10\).jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+.section2 .header h1{
+    margin-top: 110px;
+}
+.section2 .header button{
+    border: none;
+    color: white;
+    background-color: rgb(23, 109, 167);
+    padding: 10px;
+}
+/* Section 2-1 */
+.section2-1{
+    width: 85%;
+    margin: auto;
+}
+.section2-1 h1{
+    font-weight: 100;
+    color: rgb(41, 141, 207);
+}
+.section2-1 p{
+    color: grey;
+}
+/* About Us*/
+.section2-1 .about{
+    border-top: 5px solid orange;
+    text-align: left;
+}
+.section2-1 .about button{
+    border: none;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    text-align: left;
+}
+.section2-1 .column{
+    display: grid;
+    grid-template-columns: 33.333333% 33.3333333% 33.333333%;
+    column-gap: 10px;
+    text-align: center;
+}
+.section2-1 .column img{
+    height: 200px;
+    width: 80%;
+    margin: auto;
+}
+.section2-1 .column h3{
+    color: orange;
+    margin: 10px 0px;
+    font-weight: 100;
+}
+.section2-1 .column p{
+    margin: 0px;
+}
+.section2-1 .row .row1{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.section2-1 .row h3{
+    color: orange;
+    font-weight: 100;
+}
+.section2-1 .row .row1 p{
+    line-height: 30px;
+}
+/* Services */
+.section2-1 .services{
+    border-top:5px solid rgb(122, 13, 155);
+    text-align: left;
+}
+.section2-1 .services button{
+    border: none;
+    color: white;
+    background-color: rgb(122, 13, 155);
+    padding: 10px;
+}
+.section2-1 .services .services-1{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 2%;
+}
+.section2-1 .services .services-1 #services-1{
+    background-color: rgb(122, 13, 155);
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px;
+}
+.section2-1 .services .services-2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.section2-1 .services  h3{
+    color: rgb(122, 13, 155);
+    font-weight: 100;
+}
+.section2-1 .services .services-2 #skill1 p{
+    line-height: 30px;
+}
+.section2-1 .services .services-2 #skill2 p:nth-child(1){
+    background-image: -webkit-linear-gradient(left, rgb(122, 13, 155) 90%, white 10%);
+    color: white;
+    border: 1px outset white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+}
+.section2-1 .services .services-2 #skill2 p:nth-child(2){
+    background-image: -webkit-linear-gradient(left, rgb(122, 13, 155) 75%, white 25%);
+    color: white;
+    border: 1px outset white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+}
+.section2-1 .services .services-2 #skill2 p:nth-child(3){
+    background-image: -webkit-linear-gradient(left, rgb(122, 13, 155) 66%, white 34%);
+    color: white;
+    border: 1px outset white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+}
+.section2-1 .services .services-2 #skill2 p:nth-child(4){
+    background-image: -webkit-linear-gradient(left, rgb(122, 13, 155) 88%, white 12%);
+    color: white;
+    border: 1px outset white;
+    padding: 2px;
+    font-size: 12px;
+    text-align: center;
+}
+/* Portfolio */
+.section2-1 .portfolio{
+    border-top: 5px solid rgb(12, 206, 115);
+    text-align: left;
+}
+.section2-1 .portfolio button{
+    border: none;
+    background-color: rgb(12, 206, 115);
+    padding: 10px;
+    color: white;
+}
+.section2-1 .portfolio .port1{
+    display: grid;
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
+    column-gap: 10px;
+    text-align: center;
+}
+.section2-1 .portfolio .port1 img{
+    height: 150px;
+    width: 90%;
+    margin: auto;
+}
+.section2-1 .portfolio .port1 h3{
+    color: rgb(12, 206, 115);
+    font-weight: 100;
+}.section2-1 .portfolio .button{
+    text-align: center;
+}
+.section2-1 .portfolio .button button{
+    border: 2px outset rgb(12, 206, 115);
+    background-color: rgb(12, 206, 115);
+    padding: 10px;
+    color: white;
+}
+/* Contact Us*/
+.section2-1 .contact{
+    border-top: 5px solid rgb(255, 0, 127);
+    text-align: left;
+}
+.section2-1 .contact button{
+    border: none;
+    background-color: rgb(255, 0, 127);
+    color: white;
+    padding: 10px;
+}
+.section2-1 .contact iframe{
+    width: 100%;
+    height: 300px;
+    border: 2px solid gray;
+}
+.section2-1 .contact form .detail{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.section2-1 .contact form input{
+    width: 100%;
+    height: 30px;
+}
+.section2-1 .contact form textarea{
+    width: 100%;
+}
+.section2-1 .contact form .star::after{
+    content: '*';
+    color: red;
+}
+.section2-1 .contact form button{
+    border: 2px outset rgb(255, 0, 127);
+    background-color: rgb(255, 0, 127);
+    color: white;
+    padding: 10px;
+}
+/* footer */
+footer{
+    border-left: 5px solid white;
+    background-color: rgb(54, 52, 52);
+    margin-left: 20%;
+}
+footer .icon{
+    text-align: center;
+    background-color: grey;
+    padding: 30px;
+    border-left: 4px solid rgb(54, 52, 52);
+}
+footer .icon i{
+    color: white;
+    background-color: rgb(54, 52, 52);
+    padding: 5px;
+}
+footer .copy p{
+    color: grey;
+    padding: 20px;
+    margin: 0px;
+}
+footer .copy p span{
+    color: white;
+}
+@media only screen and (max-width: 768px){
+    .section1{
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .section2{
+        width: 100%;
+        margin: auto;
+    }
+    /* About */
+    .section2-1 h1{
+        font-size: larger;
+        font-weight: bold;
+    }
+    .section2-1 .column{
+        grid-template-columns: auto auto;
+        row-gap: 20px;
+    }
+    .section2-1 .row h3{
+        font-weight: bold;
+    }
+    .section2-1 .row .row1{
+        grid-template-columns: auto;
+    }
+    .section2-1 .row .row1 #column1{
+        order: 1;
+    }
+    /* Services */
+    .section2-1 .services .services-1{
+        grid-template-columns: auto auto;
+        row-gap: 5px;
+    }
+    .section2-1 .services h3{
+        font-weight: bold;
+    }
+    .section2-1 .services .services-2{
+        grid-template-columns: auto;
+    }
+    .section2-1 .services .services-2 #skill1{
+        order: 1;
+    }
+    /* Portfolio */
+    .section2-1 .portfolio .port1{
+        grid-template-columns: auto auto;
+        row-gap: 5px;
+    }
+    /* Contact */
+    .section2-1 .contact form .detail{
+        grid-template-columns: auto auto;
+        row-gap: 10px;
+    }
+    /* Footer */
+    footer{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 567px){
+    .section1{
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .section2{
+        width: 100%;
+        margin: auto;
+    }
+    /* About */
+    .section2-1 h1{
+        font-size: larger;
+        font-weight: bold;
+    }
+    .section2-1 .column{
+        grid-template-columns: auto;
+        row-gap: 20px;
+    }
+    .section2-1 .column #column1{
+        border-bottom: 1px solid gray;
+    }
+    .section2-1 .row h3{
+        font-weight: bold;
+    }
+    .section2-1 .row .row1{
+        grid-template-columns: auto;
+    }
+    .section2-1 .row .row1 #column1{
+        order: 1;
+    }
+    /* Services */
+    .section2-1 .services .services-1{
+        grid-template-columns: auto;
+        row-gap: 5px;
+    }
+    .section2-1 .services h3{
+        font-weight: bold;
+    }
+    .section2-1 .services .services-2{
+        grid-template-columns: auto;
+    }
+    .section2-1 .services .services-2 #skill1{
+        order: 1;
+    }
+    /* Portfolio */
+    .section2-1 .portfolio .port1{
+        grid-template-columns: auto;
+        row-gap: 5px;
+    }
+    /* Contact */
+    .section2-1 .contact form .detail{
+        grid-template-columns: auto;
+        row-gap: 10px;
+    }
+    /* Footer */
+    footer{
+        width: 100%;
+        margin: auto;
+    }
+}
