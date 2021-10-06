@@ -14,6 +14,9 @@ img{
 .clearfix{
     clear: both;
 }
+.section1 img{
+    background-color: white;
+}
 .section1 a{
     display: block;
     background-color: rgb(54, 52, 52);
@@ -299,14 +302,14 @@ footer .copy p span{
     color: white;
 }
 @media only screen and (max-width: 800px){
+    /* Home */
     .section1{
-        width: 100%;
-        position: relative;
-        height: auto;
+        width: 30%;
+        overflow: auto;
     }
     .section2{
-        width: 100%;
-        margin: auto;
+        width: 70%;
+        margin-left: 30%;
     }
     /* About */
     .section2-1 h1{
@@ -314,8 +317,11 @@ footer .copy p span{
         font-weight: bold;
     }
     .section2-1 .column{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         row-gap: 20px;
+    }
+    .section2-1 .column #column1{
+        border-bottom: 1px solid gray;
     }
     .section2-1 .row h3{
         font-weight: bold;
@@ -328,7 +334,7 @@ footer .copy p span{
     }
     /* Services */
     .section2-1 .services .services-1{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         row-gap: 5px;
     }
     .section2-1 .services h3{
@@ -342,18 +348,23 @@ footer .copy p span{
     }
     /* Portfolio */
     .section2-1 .portfolio .port1{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         row-gap: 5px;
+    }
+    .section2-1 .portfolio .port1 img{
+        height: 230px;
+        width: 75%;
+        margin: auto;
     }
     /* Contact */
     .section2-1 .contact form .detail{
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
         row-gap: 10px;
     }
     /* Footer */
     footer{
-        width: 100%;
-        margin: auto;
+        width: 70%;
+        margin-left: 30%;
     }
 }
 
@@ -406,6 +417,11 @@ footer .copy p span{
     .section2-1 .portfolio .port1{
         grid-template-columns: auto;
         row-gap: 5px;
+    }
+    .section2-1 .portfolio .port1 img{
+        height: 230px;
+        width: 75%;
+        margin: auto;
     }
     /* Contact */
     .section2-1 .contact form .detail{
